@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Wellington Night Market</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS STYLESHEETS -->
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- FAVICON LINK -->
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+	<header id="navContainer" class="navContainer">
+		<nav class="nav">
+			<aside class="navLogo"></aside>
+
+			<ul class="navListItems clearfix">
+				<li class="navListItem">
+					<a href="#whatsOnSection" id="whatsOnNavItem" class="whiteHover">WHAT'S ON</a>
+				</li>
+				<li class="navListItem">
+					<a href="#aboutUsSection" id="aboutUsNavItem" class="whiteHover">ABOUT US</a>
+				</li>
+				<li class="navListItem">
+					<a href="#reviewsSection" id="reviewsNavItem" class="whiteHover">REVIEWS</a>
+				</li>
+				<li class="navListItem">
+					<a href="#contactSectionDesktop" id="contactNavItem" class="whiteHover">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+
+		<nav class="mobileNav">
+			<div id="hamburger" class="hamburger">
+				<span id="hamburgerLine1" class="hamburgerLine"></span>
+				<span id="hamburgerLine2" class="hamburgerLine"></span>
+				<span id="hamburgerLine3" class="hamburgerLine"></span>
+
+				<aside class="hamburgerMenuLabel">MENU</aside>
+			</div>
+
+			<aside class="mobileNavLogo">
+				<img src="img/logo/logo3.png" alt="Logo">
+			</aside>
+
+			<ul class="mobileNavListItems clearfix">
+				<li class="mobileNavListItem">
+					<a href="#whatsOnSection" id="whatsOnNavItem2" class="whiteHover">WHAT'S ON</a>
+				</li>
+				<li class="mobileNavListItem">
+					<a href="#aboutUsSection" id="aboutUsNavItem2" class="whiteHover">ABOUT US</a>
+				</li>
+				<li class="mobileNavListItem">
+					<a href="#reviewsSection" id="reviewsNavItem2" class="whiteHover">REVIEWS</a>
+				</li>
+				<li class="mobileNavListItem">
+					<a href="#contactSectionTabbed" id="contactNavItem2" class="whiteHover">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<!-- SLIDESHOW CAROUSEL -->
+	<div id="myCarousel" class="slideshowSection slideshowSection1 carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item active"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+		</div>
+
+		<a href="#myCarousel" class="slideshowToggle prevToggle left carousel-control" data-slide="prev">
+			<img src="img/slideshow/prev.svg" alt="Previous Toggle Button">
+		</a>
+		<a href="#myCarousel" class="slideshowToggle nextToggle right carousel-control" data-slide="next">
+			<img src="img/slideshow/next.svg" alt="Next Toggle Button">
+		</a>
+
+		<div class="slideshowBlurb">
+			<h2>THE WELLINGTON</h2>
+			<h1>NIGHT MARKET</h1>
+			<p>EVERY FRIDAY AND SATURDAY FROM 5PM TO 11PM</p>
+		</div>
+	</div>
+
+	<div id="staticHeaderImage">
+		<div class="slideshowBlurb">
+			<h2>THE WELLINGTON</h2>
+			<h1>NIGHT MARKET</h1>
+			<p>EVERY FRIDAY AND SATURDAY FROM 5PM TO 11PM</p>
+		</div>
+	</div>
+
+	<!-- OPEN MAIN -->
+	<main class="main">
+
+		<!-- SOCIAL ICONS -->
+		<div class="mobileSocialIcons">
+			<span class="mobileSocialIcon mobileSocialIcon-facebook">
+				<a href="https://www.facebook.com/WellingtonNightMarket/?ref=br_rs" target="_blank">
+					<img src="img/social/fb-white.svg" alt="Facebook Logo">
+				</a>
+			</span>
+	
+			<span class="mobileSocialIcon mobileSocialIcon-instagram">
+				<a href="https://www.instagram.com/wellingtonnightmarket/?hl=en" target="_blank">
+					<img src="img/social/insta-white.svg" alt="Instagram Logo">
+				</a>
+			</span>
+	
+			<span class="mobileSocialIcon mobileSocialIcon-youtube">
+				<a href="https://www.youtube.com/channel/UCX3GS5E-jYRmo2T_tD4-tWQ" target="_blank">
+					<img src="img/social/yt-white-square.png" alt="YouTube Logo">
+				</a>
+			</span>
+		</div>
+
+		<section id="whatsOnSection" class="section whatsOnSection">
+			<h1>WHAT'S ON</h1>
+			<div class="wrapper">
+				<article class="event event1">
+					<div class="eventOverlay">
+						<div class="inner">
+							<h2>Shoopywoop!</h2>
+							<h3>Aug 18th - 19th</h3>
+							<p>Experience the exquisite taste that is Shoopywoop. The Market will be showcasing some of Wellington's best fusion inspired foods!</p>
+						</div>
+					</div>
+				</article>
+
+				<button class="showMoreEventsButton">Show More</button>
+
+				<article class="event event2">
+					<div class="eventOverlay">
+						<div class="inner">
+							<h2>Funkydunk!</h2>
+							<h3>Aug 25th - 26th</h3>
+							<p>Come down to sing and dance along to the funky sounds of the Funkydunk crew!</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="event event3">
+					<div class="eventOverlay">
+						<div class="inner">
+							<h2>Foody Friday!</h2>
+							<h3>Sept 1st</h3>
+							<p>Think you know food? Come down and see whether you can beat out the taste pallette of Wellington's best in fine dining!</p>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="seperator"></section>
+
+		<section id="aboutUsSection" class="section aboutSection">
+
+			<div class="wrapper wrapperLarge">
+				<article id="locationSection" class="section locationSection locationMap">
+					<div id="mapContainer">
+						<div id="map">
+						</div>
+					</div>
+				</article>
+
+				<article class="section locationSection locationBlurb">
+					<div class="blurbWrapper">
+						<div class="innerTop">
+							<h1>ABOUT THE MARKET</h1>
+							<p>The Wellington Night Market is a weekly celebration of cuisine, culture, and creativity on Cuba Street. A dining destination and a MUST DO experience for city locals and visitors to the world's 'coolest little capital'. It's all about food, flavours, fun, friends, and family.</p>
+						</div>
+
+						<div class="innerBottom">
+							<h1>LOCATIONS</h1>
+							<p>Every Friday at 116 Cuba Street, Wellington<br>Every Saturday on the Corner of Cuba and Manners Street, Wellington</p>
+
+							<p class="locationTime">From 5pm - 11pm!</p>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+
+		<section id="reviewsSection" class="section reviewSection">
+			<h1>WHAT THE PEOPLE HAVE TO SAY</h1>
+			<div class="wrapper wrapperLarge">
+				<article class="review review1">
+					<div class="starRatingWrapper">
+						<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+					</div>
+					<p><i>"Love the night market! The choice of food is amazing; I had 2x mains but would have had more if my gut could have taken it heheh"</i></p>
+					<p class="reviewName1"><i>- Chris Wilkins, Facebook</i></p>
+				</article>
+
+				<button class="showMoreReviewsButton">Show More</button>
+
+				<article class="review review2">
+					<div class="starRatingWrapper">
+						<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+					</div>
+					<p class="reviewStatement"><i>"Wonderful, relaxed vibe. Great food choice, the smells were amazing as were the music and the bubbles!!!</i></p>
+					<p class="reviewName"><i>- Cheryl McBain, Facebook</i></p>
+				</article>
+				<article class="review review3">
+					<div class="starRatingWrapper">
+						<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+					</div>
+					<p class="reviewStatement"><i>"Last night was my 1st time at the Wellington Night Market. I had the Churros and they were awesome! I will be back again!"</i></p>
+					<p class="reviewName"><i>- Raelean Matthews, Facebook</i></p>
+				</article>
+			</div>
+		</section>
+
+		<!-- CONTACT FORMS IN TABBED MODE ONLY-->
+		<section id="contactSectionTabbed" class="section contactSection">
+			<div class="wrapper contactWrapperTabbed">
+				<div class="container">
+					<ul class="nav nav-tabs">
+						<li class="active"><a data-toggle="tab" href="#Contact">Contact</a></li>
+						<li><a data-toggle="tab" href="#JoinUs">Join us</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div id="Contact" class="tab-pane fade in active">
+							<article class="form form2">
+								<form>
+									<h1>WANT TO BE A PART<br>OF THE MARKET?</h1>
+
+									<fieldset class="formFieldset">
+										<label for="form2-name">Name:</label>
+										<input type="text" name="name" id="form1-name">
+									</fieldset>
+
+									<fieldset class="formFieldset">
+										<label for="form2-email">Email:</label>
+										<input type="text" name="email" id="form1-email">
+									</fieldset>
+
+									<fieldset class="formFieldset">
+										<label for="form2-message">Message:</label>
+										<textarea rows="5" id="form2-message"></textarea>
+									</fieldset>
+
+									<button class="submitButton submit3" type="button">Submit</button>
+									
+									<div class="formOverlay formOverlay3">
+										<div>
+											<button class="submitButton formSubmitButton" type="button">Thanks for Submitting</button>
+										</div>
+									</div>
+								</form>
+							</article>					
+						</div>
+						<div id="JoinUs" class="tab-pane fade">
+						    <article class="form form1">
+								<form>
+									<h1>HAVE ANY QUERIES?<br>GET IN TOUCH!</h1>
+
+									<fieldset class="formFieldset">
+										<label for="form1-name">Name:</label>
+										<input type="text" name="name" id="form2-name">
+									</fieldset>
+
+									<fieldset class="formFieldset">
+										<label for="form1-email">Email:</label>
+										<input type="text" name="email" id="form2-email">
+									</fieldset>
+
+									<fieldset class="formFieldset">
+										<label for="form1-message">Message:</label>
+										<textarea rows="5" id="form1-message"></textarea>
+									</fieldset>
+
+									<button class="submitButton submit4" type="button">Submit</button>
+									
+									<div class="formOverlay formOverlay4">
+										<div>
+											<button class="submitButton formSubmitButton" type="button">Thanks for Submitting</button>
+										</div>
+									</div>
+								</form>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END CONTACT FORMS IN TABBED MODE ONLY-->
+
+		<!-- CONTACT FORMS FOR DESKTOP SCREEN ONLY -->
+		<section id="contactSectionDesktop" class="section contactSection">
+			<div class="wrapper contactWrapper">
+				<article class="form form1">
+					<form>
+						<h1>HAVE ANY QUERIES?<br>GET IN TOUCH!</h1>
+						<fieldset class="formFieldset">
+							<label for="form1-name">Name:</label>
+							<input type="text" name="name" id="form3-name">
+						</fieldset>
+
+						<fieldset class="formFieldset">
+							<label for="form1-email">Email:</label>
+							<input type="text" name="email" id="form3-email">
+						</fieldset>
+
+						<fieldset class="formFieldset">
+							<label for="form1-message">Message:</label>
+							<textarea rows="5" id="form3-message"></textarea>
+						</fieldset>
+
+						<button class="submitButton submit1" type="button">Submit</button>
+
+						<div class="formOverlay formOverlay1">
+							<div>
+								<button class="submitButton formSubmitButton" type="button">Thanks for Submitting</button>
+							</div>
+						</div>
+					</form>
+				</article>
+				<article class="form form2">
+					<form>
+						<h1>WANT TO BE A PART<br>OF THE MARKET?</h1>
+						<fieldset class="formFieldset">
+							<label for="form2-name">Name:</label>
+							<input type="text" name="name" id="form4-name">
+						</fieldset>
+
+						<fieldset class="formFieldset">
+							<label for="form2-email">Email:</label>
+							<input type="text" name="email" id="form4-email">
+						</fieldset>
+
+						<fieldset class="formFieldset">
+							<label for="form2-message">Message:</label>
+							<textarea rows="5" id="form4-message"></textarea>
+						</fieldset>
+
+						<button class="submitButton submit2" type="button">Submit</button>
+
+						<div class="formOverlay formOverlay2">
+							<div>
+								<button class="submitButton formSubmitButton" type="button">Thanks for Submitting</button>
+							</div>
+						</div>
+					</form>
+				</article>
+			</div>
+		</section>
+ 		<!-- END CONTACT FORMS FOR DESKTOP -->
+		
+	</main>
+	<!-- CLOSE MAIN -->
+
+	<!-- OPEN FOOTER -->
+	<footer class="section footer">
+		<div class="wrapper wrapperLarge">
+			<section class="footerColumn footerColumn1">
+				<h3>COPYRIGHT</h3>
+				<p>© 2017 : Yoobee School of Design<br>17WDWU07<br>All Rights Reserved</p>
+			</section>
+			<section class="footerColumn footerColumn2">
+				<h3>CREDITS</h3>
+				<div>
+					<p>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar" target="_blank">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a> are licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+				</div>
+				<div>
+					<p>Images sourced from <a href="https://www.wellingtonnightmarket.co.nz/" title="Wellington Night Market" target="_blank">Wellington Night Market </a>are licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+				</div>
+			</section>
+			<section class="footerColumn footerColumn3">
+				<h3>CREATORS</h3>
+				<p>Cameron Shaw</p>
+				<p>Forrest Wilson-Jennings</p>
+				<p>Florence Lo</p>
+			</section>
+		</div>
+	</footer>
+	<!-- CLOSE FOOTER -->
+
+	<!-- SOCIAL ICONS -->
+	<aside class="socialIcons verticalWrapper">
+		<span class="socialIcon socialIcon-facebook">
+			<a href="https://www.facebook.com/WellingtonNightMarket/?ref=br_rs" target="_blank">
+				<img src="img/social/fb-white.svg" alt="Facebook Logo">
+			</a>
+		</span>
+
+		<span class="socialIcon socialIcon-instagram">
+			<a href="https://www.instagram.com/wellingtonnightmarket/?hl=en" target="_blank">
+				<img src="img/social/insta-white.svg" alt="Instagram Logo">
+			</a>
+		</span>
+
+		<span class="socialIcon socialIcon-youtube">
+			<a href="https://www.youtube.com/channel/UCX3GS5E-jYRmo2T_tD4-tWQ" target="_blank">
+				<img src="img/social/yt-white-square.png" alt="YouTube Logo">
+			</a>
+		</span>
+	</aside>
+
+	<!-- TO TOP ICON -->
+	<aside id="toTopIcon" class="toTopIcon">
+		<p>TOP</p>
+	</aside>
+
+	<!-- JS SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj467PKZhXi0E6aeDRERLagSx_W69-wWY"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
